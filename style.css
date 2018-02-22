@@ -2,9 +2,13 @@
     background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/02/Cardboard-Flat-subtle-Pattern-Texture.png");
 }
 #connect{
-    height: 190px;
+    height: 260px;
 }
 
 hr{margin: auto;
-    height: 3px;
+   height: 3px;
+}
+.background{
+    background-color: teal;
+
 }
