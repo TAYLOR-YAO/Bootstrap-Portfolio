@@ -1,0 +1,57 @@
+#main{
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/02/Cardboard-Flat-subtle-Pattern-Texture.png");
+}
+#connect{
+    height: 260px;
+}
+
+hr{margin: auto;
+   height: 3px;
+}
+.background{
+    background-color: teal;
+
+}
+#port1{
+    width: 230px !important;
+    height: 180px;
+    background-image: url(../images/tablet.jpg);
+    margin: 20px;
+    margin-left: 50px;
+}
+#port2{
+    width: 230px;
+    height: 180px;
+    background-image: url(../images/tech.jpg);
+    margin: 20px;
+    margin-left: 50px;
+  
+}
+#port3{
+    width: 230px;
+    height: 180px;
+    background-image: url(../images/game-taylor.jpg);
+    margin: 20px ;
+    margin-left: 50px;
+  
+}
+#port4{
+    width: 230px;
+    height: 180px;
+    background-image: url(../images/phone.jpg);
+    margin: 20px;
+    margin-left: 50px;
+   
+}
+#port5{
+    width: 230px;
+    height: 180px;
+    background-image: url(../images/technology.jpg);
+    margin: 20px ;
+    margin-left: 50px;
+   
+}
+h5{
+    position: relative; 
+    top:75%;
+}
