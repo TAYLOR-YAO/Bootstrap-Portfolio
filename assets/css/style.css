@@ -4,7 +4,35 @@
 #connect{
     height: 260px;
 }
+nav{
+    height: 70px ;
+    overflow: visible;
+    width: 1140px;
+    position: relative;
+    right: 15px;
 
+}
+.page{
+    height: 624px;
+}
+.footer{
+    width: 1140px;
+    position: relative;
+    right: 15px;
+}
+.name{
+    height: 70px;
+    width: 200px !important;
+    color: white;
+    position: relative;
+    left: 35px;
+}
+h3{
+    color: white;
+    font-size: 180%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
 hr{margin: auto;
    height: 3px;
 }
@@ -52,9 +80,10 @@ hr{margin: auto;
 }
 h5{
     position: relative; 
-    top:75%;
+    top:70%;
 }
 .homworLinks{
     color: white;
+    position: relative;
 }
 
