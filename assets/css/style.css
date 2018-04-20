@@ -24,8 +24,7 @@ hr{margin: auto;
     height: 180px;
     background-image: url(../images/tech.jpg);
     margin: 20px;
-    margin-left: 50px;
-  
+    margin-left: 50px; 
 }
 #port3{
     width: 230px;
@@ -55,3 +54,7 @@ h5{
     position: relative; 
     top:75%;
 }
+.homworLinks{
+    color: white;
+}
+
