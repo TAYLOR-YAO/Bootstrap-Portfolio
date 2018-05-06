@@ -1,93 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-   
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+<html lang="en-us">
 
-    <title>contact</title>
-  </head>
-  
-  <body>
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-info">
-                <a class="navbar-brand bg-light name"  style="width:150px;"href="#">
-                    <h3 class="text-info">Taylor Yao</h3>
-                </a>
-                
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                      <a class="nav-link text-light" href="index.html" target="_blank">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-light" href="portfolio.html" target="_blank">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-light" href="contact.html" target="_blank">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Taylor Contact</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html" id="logo">Taylor Yao</a>
+      </div>
+      <button type="button" class="navbar-toggler collapsed ml-auto navBtn" data-toggle="collapse" data-target="#page-nav-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="page-nav-collapse">
+        <ul class="nav justify-content-end ml-auto">
+          <li>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  
-    <div class="container" id="main">
-            <br>
-            <br>
-            <div class="row ml-auto page">
-                <div class="col-7 mx-auto" style="background-color:#ffffff;">
-                    <h4 class="text-info p-2 ">Contact</h4>
-                    <hr >
-                    <form class="p-4">
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Name</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Name">
-                          </div>
-                      <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1"  aria-describedby="emailHelp" placeholder="Enter email">
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleInputPassword1">Message</label>
-                        <input type="text" class="form-control" style="height:160px;" id="exampleInputPassword1" placeholder="Massage">
-                      </div>
-                     
-                      <button type="submit" class="btn btn-info">Submit</button>
-                    </form>
-                </div>
-
-                <div class="col-3 mx-auto" style="background-color:#ffffff;" id="connect">
-                    <h4 class=" text-info p-2">Connect with me</h4>
-                    <hr>
-
-
-                    <ul class="list-inline ml-auto p-4">
-                            <li class="list-inline-item ml-auto p-1">
-                              <a href="https://www.linkedin.com/in/taylor-yao-a75325153/" target="_blank"><img class="image" src="assets/images/LinkedIn-Logo.png" alt="linkden profile"></a>
-                            </li>
-                            <li class="list-inline-item p-1">
-                                <a href="https://github.com/TAYLOR-YAO" target="_blank"><img class="image" src="assets/images/github-log.png" alt="GitHub page">
-                            </a></li>
-                            <li class="list-inline-item p-1">
-                                <a href="https://stackoverflow.com/users/9092102/taylor-yao" target="_blank"><img class="image" src="assets/images/overflow.png" alt="Stockoverflow page"></a>
-                            </li>
-                          </ul>
-                       
-                </div>
-                
-
-                </div>
-                <br>
-                <br>
-                <div class="card-footer text-light bg-info border-top-3 border-secondary pl-4 text-center footer" >
-                        &copy, 2018 Taylor Yao
-                </div>
+  </nav>
+  <main class="container">
+    <section class="row">
+      <div class="col-md-8">
+        <form class="block form-horizontal">
+          <h1 class="block-header">Contact</h1>
+          <hr />
+          <div class="form-group">
+            <label for="name" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="name" placeholder="Name">
             </div>
+          </div>
+          <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="email" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="msg">Message</label>
+            <div class="col-sm-10">
+              <textarea id="msg" class="form-control" rows="3" placeholder="Message"></textarea>
+            </div>
+          </div>
+          <button class="submit-btn">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-4">
+        <aside class="block">
+          <h1 class="block-header connect-header">Connect With Me</h1>
+          <hr />
+          <div id="images">
+            <a href="https://github.com/TAYLOR-YAO" target="_blanck"><img src="assets/imgs/github.png" alt="github Page" class="connect-photo"></a>
+            <a href="https://www.linkedin.com/in/taylor-yao-a75325153/" target="_blanck"><img src="assets/imgs/linkedin.png" alt="Linkedin Page" class="connect-photo"></a>
+            <a href="https://stackoverflow.com/users/9092102/taylor-yao" target="_blanck"> <img src="assets/imgs/stackover2.png" alt="Stackoverflow Page" class="connect-photo"></a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright 2018, Taylor Yao
+    </p>
+  </footer>
+  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></script>
 
+</body>
 
-    </div>
-
-  </body>
 </html>
-

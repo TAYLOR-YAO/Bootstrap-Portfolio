@@ -1,96 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="en-us">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+</head>
 
-    <title>porfolio</title>
-  </head>
-  
-  <body>
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-info">
-                <a class="navbar-brand bg-light name"  style="width:150px;"href="#">
-                    <h3 class="text-info">Taylor Yao</h3>
-                </a>
-                
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                      <a class="nav-link text-light" href="index.html" target="_blank">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-light" href="portfolio.html" target="_blank">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-light" href="contact.html" target="_blank">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-    </div>
-  
-    <div class="container" id="main">
-            <br>
-            <br>
-            <div class="row ml-auto">
-                <div class="col-7 mx-auto p-2 " style="background-color:#ffffff;">
-              <h4 class="text-info p-2" style="margin-left:40px;">Portfolio</h4>
-              <hr class="ml-auto" style="width:85%;">
-              
-              <div class="float-left" id="port1">
-                <h5 class="text-light bg-info text-center "><a class=" nav-link homworLinks" href="https://github.com/TAYLOR-YAO/liri-node-app/" alt="liri-node-app" target="_blank">liri-node-app</a></h5>
-                
-              </div>
-              <div class="float-left " id="port2">
-                <h5 class="text-light bg-info text-center "><a class=" nav-link homworLinks" href="https://taylor-yao.github.io/Giphy-Search/index.html" alt="Giphy Search" target="_blank">Giphy Search</a></h5>
-                  
-              </div>
-              <div class="float-left " id="port3">
-                  <h5 class="text-light bg-info text-center "><a class=" nav-link homworLinks" href="https://taylor-yao.github.io/TriviaGame/index.html" alt="Trivia Game" target="_blank">Trivia Game</a></h5>
-                  
-              </div>
-              <div class="float-left   " id="port4">
-                <h5 class="text-light bg-info text-center "><a class=" nav-link homworLinks" href="https://taylor-yao.github.io/week-4-game/index.html" alt="Crystal Collector" target="_blank">Crystal Collector</a></h5>
-                
-              </div>
-              <div class="float-left" id="port5">
-                <h5 class="text-light bg-info text-center"><a class=" nav-link homworLinks" href="https://taylor-yao.github.io/Firebase/index.html" alt="Training Activities" target="_blank">Training Activities</a></h5>
-                  
-              </div>
-                    <br>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html" id="logo">Taylor Yao</a>
+      </div>
+      <button type="button" class="navbar-toggler collapsed ml-auto navBtn" data-toggle="collapse" data-target="#page-nav-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="page-nav-collapse">
+        <ul class="nav justify-content-end ml-auto">
+          <li>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div> 
+  </nav>
+
+  <div class="container">
+    <main class="row">
+      <div class="col-md-8">
+        <article class="block">
+          <h1 class="block-header">Portfolio</h1>
+          <hr />
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid w-100 port-image" src="assets/imgs/game-taylor.jpg" alt="">
+              <h4><a href="#"><a class=" nav-link homworLinks" href="https://taylor-yao.github.io/Giphy-Search/index.html" alt="Giphy Search" target="_blank">Giphy Search</a></h4>
             </div>
-
-              <div class="col-3 mx-auto" style="background-color:#ffffff;" id="connect">
-                  <h4 class=" text-info p-2">Connect with me</h4>
-                  <hr>
-                  <ul class="list-inline ml-auto p-4">
-                    <li class="list-inline-item ml-auto p-1">
-                      <a href="https://www.linkedin.com/in/taylor-yao-a75325153/" target="_blank"><img class="image" src="assets/images/LinkedIn-Logo.png" alt="linkden profile"></a>
-                    </li>
-                    <li class="list-inline-item p-1">
-                        <a href="https://github.com/TAYLOR-YAO" target="_blank"><img class="responsive" src="assets/images/github-log.png" alt="GitHub page">
-                    </a></li>
-                    <li class="list-inline-item p-1">
-                        <a href="https://stackoverflow.com/users/9092102/taylor-yao" target="_blank"><img class="image" src="assets/images/overflow.png" alt="Stockoverflow page"></a>
-                    </li>
-                  </ul>
-                      
-              </div>
-
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid w-100 port-image" src="assets/imgs/phone.jpg" alt="">
+              <h4><a class=" nav-link homworLinks" href="https://taylor-yao.github.io/TriviaGame/index.html" alt="Trivia Game" target="_blank">Trivia Game</a></h4>
             </div>
-                <br>
-                <br>
-              <div class="card-footer text-light bg-info border-top-3 border-secondary pl-4 text-center footer" >
-                      &copy, 2018 Taylor Yao
-              </div>
           </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid w-100 port-image" src="assets/imgs/tablet.jpg" alt="">
+              <h4><a class=" nav-link homworLinks" href="https://taylor-yao.github.io/week-4-game/index.html" alt="Crystal Collector" target="_blank">Crystal Collector</a></h4>
+            </div>
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid w-100 port-image" src="assets/imgs/tech.jpg" alt="">
+              <h4><a class=" nav-link homworLinks" href="https://taylor-yao.github.io/Firebase/index.html" alt="Training Activities" target="_blank">Training Activities</a></h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-12 col-lg-6">
+              <img class="img-fluid w-100 port-image" src="assets/imgs/technology.jpg" alt="">
+              <h4><a class=" nav-link homworLinks" href="https://github.com/TAYLOR-YAO/liri-node-app/" alt="liri-node-app" target="_blank">liri-node-app</a></h4>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="col-md-4">
+        <aside class="block">
+          <h1 class="block-header connect-header">Connect With Me</h1>
+          <hr />
+          <div id="images">
+            <a href="https://github.com/TAYLOR-YAO" target="_blanck"><img src="assets/imgs/github.png" alt="github Page" class="connect-photo"></a>
+            <a href="https://www.linkedin.com/in/taylor-yao-a75325153/" target="_blanck"><img src="assets/imgs/linkedin.png" alt="Linkedin Page" class="connect-photo"></a>
+            <a href="https://stackoverflow.com/users/9092102/taylor-yao" target="_blanck"> <img src="assets/imgs/stackover2.png" alt="Stackoverflow Page" class="connect-photo"></a>
+          </div>
+        </aside>
+      </div>
+    </main>
+  </div>
 
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright 2018, Taylor Yao
+    </p>
+  </footer>
 
-    </div>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></script>
 
-  </body>
+</body>
+
 </html>
-
