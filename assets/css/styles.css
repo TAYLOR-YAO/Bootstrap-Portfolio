@@ -48,6 +48,9 @@ main {
   background: #4aaaa5 !important;
   border: none;
 }
+.navbar-toggler{
+  margin-right: 10px;
+}
 
 @media only screen and (max-width: 767px) {
   .navbar-header {
@@ -71,14 +74,7 @@ main {
   margin: 0;
   color: #4aaaa5;
 }
-.navBtn{
-  background-color: #4aaaa5 !important;
-  border:  solid #ffffff 1px !important;
-  width: 50px;
-  height: 30px;
-  margin-right: 10px;
-  color:#4aaaa5;
-}
+
 .navBtn:hover {
   background-color: #fff !important;
 }
