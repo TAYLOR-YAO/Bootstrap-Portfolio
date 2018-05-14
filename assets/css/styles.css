@@ -74,7 +74,9 @@ main {
   margin: 0;
   color: #4aaaa5;
 }
-
+.portfolio img{
+  height: 80%;
+}
 .navBtn:hover {
   background-color: #fff !important;
 }
